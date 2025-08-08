@@ -28,7 +28,6 @@ public class L2AutoTest extends Base {
         mainYandexPage.deleteMessageEmail();
         registerPage.createAccountL2(email, pass);
         mainYandexPage.takeMassage();
-
     }
 
     private static Stream<String> emailProvider() {
